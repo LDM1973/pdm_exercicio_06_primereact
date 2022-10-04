@@ -27,9 +27,7 @@ const App = () => {
 
   return (
     <div className='flex justify-content-center'>
-        <Card className='p-2 border-round w-6' header={header} footer={footer}>
-
-        </Card>
+        <Card className='p-2 border-round w-6' header={header} footer={footer} />
     </div>
   )
 }
